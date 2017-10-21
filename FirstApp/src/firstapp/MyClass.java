@@ -22,8 +22,15 @@ public class MyClass {
             System.out.print("Please try a number between 0 and 10");
         }
         else if (num == random){
-            System.out.print("Congratulation!! You win!!");
-            System.out.print(count);
+            System.out.println("Congratulation!! You win!!");
+            System.out.println(count);
+            System.out.println(random);
+        }
+        else {
+            System.out.println("Game Over!!");
+            System.out.println(count);
+            System.out.println(random);
+
         }
         
     }

@@ -18,7 +18,7 @@ public class FirstApp {
         // TODO code application logic here
        MyClass myClass= new MyClass();
        //myClass.printMsg("Esraa");
-       myClass.guessMyNumber(5);
+       myClass.guessMyNumber(6);
     }
     
 }
